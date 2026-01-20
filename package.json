@@ -23,10 +23,10 @@
   },
   "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c",
   "dependencies": {
-    "@nx.js/clkrst": "1.0.1",
-    "@nx.js/constants": "0.4.0",
-    "@nx.js/install-title": "0.0.3",
-    "@nx.js/ncm": "1.2.0",
+    "@nx.js/clkrst": "link:../nx.js/packages/clkrst",
+    "@nx.js/constants": "link:../nx.js/packages/constants",
+    "@nx.js/install-title": "link:../nx.js/packages/install-title",
+    "@nx.js/ncm": "link:../nx.js/packages/ncm",
     "@tootallnate/nacp": "0.2.0",
     "jimp": "1.6.0",
     "react": "18.3.1",
@@ -36,9 +36,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@nx.js/nro": "0.0.65",
-    "@nx.js/nsp": "0.0.65",
-    "@nx.js/runtime": "0.0.65",
+    "@nx.js/nro": "link:../nx.js/packages/nro",
+    "@nx.js/nsp": "link:../nx.js/packages/nsp",
+    "@nx.js/runtime": "link:../nx.js/packages/runtime",
     "@types/react": "18.3.23",
     "esbuild": "0.17.19",
     "typescript": "5.8.3"
